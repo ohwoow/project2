@@ -1096,7 +1096,7 @@ fieldset img {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1310px) {
   .content__right {
     display: none;
   }
@@ -1203,7 +1203,7 @@ fieldset img {
 @media (max-width: 767px) {
   .author {
     padding: 20px;
-    width: 85%;
+    width: 100%;
   }
 
   .comments__header {
