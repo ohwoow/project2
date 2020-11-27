@@ -159,7 +159,7 @@ li::before {
   position: relative;
   margin: 0 auto;
   max-width: 1550px;
-  padding-left: 300px;
+  padding-left: 200px;
   padding-right: 20px;
   padding-top: 40px;
 }
@@ -421,6 +421,7 @@ li::before {
   position: relative;
   padding-bottom: 63px;
   margin-bottom: 66px;
+  padding-left: 45px;
 }
 
 .article::after {
@@ -527,7 +528,7 @@ fieldset img {
 .list ul {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .list ul li {
@@ -879,7 +880,7 @@ fieldset img {
 }
 
 .other-articles__items {
-  max-width: 380px;
+  max-width: 280px;
 }
 
 .other-articles__item {
@@ -919,6 +920,12 @@ fieldset img {
 
 .author__list {
   padding-left: 10px;
+}
+
+@media (max-width: 1760px) {
+  .content {
+    padding-left: 300px;
+  }
 }
 
 @media (max-width: 1200px) {
