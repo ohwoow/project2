@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <button class="open-sidebar"></button>
+
+    <aside class="sidebar">
+      <div class="sidebar__content">
+        <a href="#" class="sidebar__logo logo">
+          <img src="image/logo.svg" alt="">
+        </a>
+        <nav class="sidebar__nav nav-sidebar">
+          <ul class="nav-sidebar__list">
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Как лечить печень
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Заболевания печени
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Блог
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Стол №5
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Рецепты Стола №5
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Другие диеты
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Тесты
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Видео
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Спецпроекты
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Вопрос-ответ
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Авторы
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-sidebar__link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="send-question">
+          <div class="block-lg send-question__content">
+            <h3 class="send-question__title">Задайте вопрос специалисту</h3>
+            <div class="send-question__doctor">
+              <img src="image/doctor-1.jpg" class="send-question__doctor-img"
+                alt="Вялов Сергей Сергеевич Врач, кандидат медицинских наук Гастроэнтеролог-гепатолог">
+              <p>
+                На ваши вопросы ответит: <br>
+                <b>Вялов Сергей Сергеевич</b>
+              </p>
+            </div>
+            <p class="send-question__spec">
+              Врач, кандидат
+              медицинских наук
+              Гастроэнтеролог-гепатолог
+            </p>
+
+            <form action="#" class="form send-question__form">
+              <input type="text" class="input send-question__input" name="Имя" placeholder="Как к вам обращаться?">
+              <textarea class="input send-question__input send-question__textarea" name="Текст обращения"
+                placeholder="Что вас беспокоит?"></textarea>
+              <button type="submit" class="btn send-question__btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="mailing">
+          <div class="block-lg mailing__content">
+            <p>
+              <b>Понравилась статья?</b>
+              Раз в неделю мы делаем рассылку на почту с самыми популярными статьями
+            </p>
+            <form action="#" class="form mailing__form">
+              <input type="email" class="input mailing__input" name="Почта" placeholder="Почта ">
+              <button type="submit" class="btn mailing__btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="content">
+      <header class="header">
+        <div class="header__inner">
+          <div class="search">
+            <div class="ya-site-form ya-site-form_bg_transparent ya-site-form_inited_yes" id="ya-site-form0">
+              <div class="ya-site-form__form">
+                <table class="ya-site-form__wrap" cellpadding="0" cellspacing="0">
+                  <tbody>
+                    <tr>
+                      <td class="ya-site-form__search-wrap">
+                        <table class="ya-site-form__search" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <td class="ya-site-form__search-input">
+                                <table class="ya-site-form__search-input-layout">
+                                  <tbody>
+                                    <tr>
+                                      <td class="ya-site-form__search-input-layout-l">
+                                        <div class="ya-site-form__input"><input name="text" type="search" value=""
+                                            class="ya-site-form__input-text" placeholder="Поиск" autocomplete="off">
+                                          <div class="ya-site-suggest">
+                                            <div class="ya-site-suggest-popup" style="display: none;"><i
+                                                class="ya-site-suggest__opera-gap"></i>
+                                              <div class="ya-site-suggest-list">
+                                                <div class="ya-site-suggest__iframe"></div>
+                                                <ul class="ya-site-suggest-items"></ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </td>
+                                      <td class="ya-site-form__search-input-layout-r"><input
+                                          class="ya-site-form__submit ya-site-form__submit_type_image" type="button"
+                                          value=""></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="ya-site-form__gap">
+                                <div class="ya-site-form__gap-i"></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <ul class="header__social social">
+            <li>
+              <a href="#" class="social__link">
+                <img src="image/vk.svg" alt="VK">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link">
+                <img src="image/od.svg" alt="Одноклассники">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link">
+                <img src="image/fb.svg" alt="Фэйсбук">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link">
+                <img src="image/tw.svg" alt="Твиттер">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link">
+                <img src="image/tg.svg" alt="Телеграмм">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="content__inner">
+
+        <div class="content__left">
+          <article class="article">
+            <h1>Гепатит В. <br>
+              Острая и хроническая формы.
+              Методы диагностики и лечения
+            </h1>
+            <div class="article__info">
+              <div class="article__info-text article__info-viewers">Просмотров: <span>18 930</span></div>
+              <div class="article__info-text article__info-timeToRead">Время прочтения: <span>6 минут</span></div>
+              <time class="article__info-date">24 июля 2019</time>
+            </div>
+
+            <div class="article__text">
+              <p>
+                <img src="image/img-1.jpg" class="img-border" alt="">
+                Гепатит В — это острое или хроническое воспаление печеночной ткани, вызванное одноименным вирусом.
+                Болезнь
+                может протекать как с выраженными симптомами поражения печени, так и первично-хронически, бессимптом-но.
+                По
+                данным ВОЗ, лишь 10% больных гепатитом В знают о своей болезни и только 16,7% среди диагностированных
+                лиц
+                получают лечение1. При этом хронический гепатит В во много разповышает риски развития цирроза и рака
+                печени.
+                Ежегодно в мире от последствий заболевания погибает около 887 000 человек 2. В России за 2018 год
+                выявлено
+                около 62 тысяч новых случаев хронического гепатита В2. Показатели заболеваемости сильно отличаются в
+                зависимости от региона РФ, что обусловлено разницей в качестве диагностики и полноте регистрации этого
+                заболевания.
+              </p>
+
+              <h2>Классификация гепатита В</h2>
+              <p class="small-mb">
+                По клиническому течению различают острый и хронический гепатит. Хроническим считается воспалительный
+                процесс, который продолжается более 6 месяцев. Острый гепатит классифицируют по степени тяжести на
+                легкую,
+                средне тяжелую и тяжелую формы.
+              </p>
+              <div class="list">
+                <p>По скорости развития печеночной недостаточности острый гепатит делят на:</p>
+                <ul>
+                  <li>фульминантный — печеночная недостаточность развивается в течение недели после появления желтухи;
+                  </li>
+                  <li>острый — до 4 недель от появления желтухи;</li>
+                  <li>подострый — до 24 недель от появления желтухи.</li>
+                </ul>
+              </div>
+
+              <h2>Симптомы гепатита В </h2>
+              <p>
+                Острый гепатит В начинается, как правило, с преджелтушного периода, во время которого пациент жалуется
+                на
+                общее недомогание, слабость, снижение работоспособности. В это же время развиваются диспептические
+                проявления — тяжесть и боль в правом подреберье, тошнота, рвота. потеря аппетита. Также возможны
+                кратковременное повышение температуры, боль в суставах, кожная сыпь по типу крапивницы. Безжелтушный
+                период продолжается от одной до четырех недель, после чего появляется желтуха, печень увеличивается в
+                размерах, ухудшается общее самочувствие. В зависимости от степени тяжести заболевания возможно развитие
+                проявлений печеночной недостаточности от легкой сонливости до печеночной комы. Нередки кровотечения
+                (обычно из желудочно-кишечного тракта) из-за нарушения синтеза печенью белков-факторов свертывания.
+              </p>
+              <fieldset>
+                <img src="image/img-2.jpg" alt="">
+                <caption>Описание фотографии</caption>
+              </fieldset>
+              <p>
+                Особенно неблагоприятно протекает острый гепатит при коинфекции (одновременном заражении) вирусом
+                гепатита
+                В и D (дельта). Возможно фульминантное (молниеносное) развитие болезни с быстрым нарастанием желтухи,
+                появлением асцита и признаками острой печеночной недостаточности, вплоть до летального исхода.
+                Хронический
+                гепатит нередко проявляется бессимптомно. Могут присутствовать тяжесть и боль в правом подреберье (после
+                употребления большого количества алкоголя или переедания), нарушение общего самочувствия: слабость,
+                раздражительность, снижение работоспособности. В крови повышается уровень АСТ и АЛТ, ЩФ, но эти
+                изменения
+                характерны для большинства поражений печени, независимо от их природы. Выраженные симптомы, как правило,
+                появляются на стадии цирроза: беспричинное исхудание, асцит, желудочно-кишечные кровотечения, тремор
+                конечностей и другие проявления печеночной энцефалопатии.
+              </p>
+
+              <h2>Диагностика гепатита B</h2>
+              <p class="reset-mb">
+                <img src="image/img-3.jpg" alt="">
+                Диагностика острого гепатита В осуществляется на основе характерной клинической картины и данных
+                лабораторных исследований. В крови повышается содержание билирубина, активность АЛТ и АСТ возрастает
+                более
+                чем в 10 раз. Кроме того, в крови обнаруживаются маркеры вирусного гепатита В: HBsAg, антиНВсore IgM.
+                Для
+                диагностики хронического гепатита. В кровь исследуют на содержание HBsAg — поверхностного антигена
+                вируса.
+                Кроме того, в крови обнаруживаются маркеры вирусного гепатита В: HBsAg, антиНВсore IgM. Для диагностики
+                хронического гепатита. Диагностика острого гепатита В осуществляется на основе характерной клинической
+                картины и данных лабораторных исследований. В кровь исследуют на содержание HBsAg — поверхностного
+                антигена вируса. Кроме того, в крови обнаруживаются маркеры вирусного гепатита В: HBsAg, антиНВсore IgM.
+                Для диагностики хронического гепатита. В кровь исследуют на одержание билирубина, активность и
+                содержание
+                осуществляется на основе характерной клинической HBsAg — поверхностного антигена вируса. В крови
+                повышается содержание билирубина, активность АЛТ и АСТ возрастает более чем в 10 раз.
+              </p>
+              <div class="list">
+                <p>Это обследование является скрининговым и, согласно санитарно-эпидемиологическим правилам, его обязаны
+                  проходить следующие группы лиц:
+                </p>
+                <ul>
+                  <li>женщины на I и II триместре беременности;</li>
+                  <li>доноры и реципиенты крови и ее компонентов;</li>
+                  <li>доноры спермы;</li>
+                  <li>сотрудники медицинских организаций;</li>
+                  <li>пациенты отделений гемодиализа, гематологии, трансплантологии;</li>
+                  <li>пациенты перед плановыми операциями;</li>
+                  <li>пациенты перед химиотерапией;</li>
+                  <li>пациенты наркологических и кожно-венерологических диспансеров;</li>
+                  <li>дети в учреждениях с круглосуточным пребыванием и персонал этих учреждений;</li>
+                  <li>лица в местах лишения свободы;</li>
+                  <li>лица, контактировавшие с больным гепатитом В;</li>
+                  <li>дети, рожденные от инфицированных матерей.</li>
+                </ul>
+              </div>
+              <p>
+                При необходимости определить не только факт заражения, но и активность инфекции (вирусную нагрузку)
+                используют ПЦР-диагностику — прямое определение ДНК вируса и ее количества. Также с помощью ПЦР можно
+                выявить мутации вируса, придающие ему устойчивость к тем или иным противовирусным средствам. Активность
+                воспалительного процесса и тяжесть поражения печени оценивают с помощью гистологического исследования —
+                изучения под микроскопом частиц ткани печени.
+              </p>
+            </div>
+
+
+            <div class="share">
+              <img src="image/social.jpg" alt="">
+            </div>
+
+            <div class="block-lg author">
+              <div class="author__info">
+                <div class="author__name">
+                  Автор статьи: <span>Вялов Сергей Сергеевич</span>
+                </div>
+                <ul class="author__list">
+                  <li>Кандидат медицинских наук</li>
+                  <li>гастроэнтеролог-гематолог GMS Clinic</li>
+                  <li>член Американской гастроэнтерологической ассоциации (AGA)</li>
+                  <li>член Европейского общества изучения печени (EASL)</li>
+                  <li>член Российской гастроэнтерологической ассоциации (РГА)</li>
+                  <li>член Российского общества по изучению печени (РОПИП)</li>
+                  <li>Автор более 110 печатных работ, в периодической и центральной печати, книг, практических
+                    руководств,
+                    методических рекомендаций и учебных пособий</li>
+                </ul>
+              </div>
+              <div class="author__img">
+                <img src="image/doctor-2.jpg" alt="Вялов Сергей Сергеевич Кандидат медицинских наук">
+              </div>
+            </div>
+
+            <div class="block-lg author">
+              <div class="author__info">
+                <div class="author__name">
+                  Автор статьи: <span>Карина Тверецкая</span>
+                </div>
+                <ul class="author__list">
+                  <li>Редактор сайта</li>
+                  <li>Опыт работы: 11 лет</li>
+                </ul>
+              </div>
+              <div class="author__img">
+                <img src="image/doctor-2.jpg" alt="Вялов Сергей Сергеевич Кандидат медицинских наук">
+              </div>
+            </div>
+          </article>
+
+          <div class="comment_cackle_vidget comments">
+            <div class="mc-container">
+              <div class="cc mc-c">
+                <div class="comments__header">
+                  <h2 class="comments__title">Комментарии</h2>
+                  <select class="comments__select">
+                    <option value="popular">По популярности</option>
+                    <option value="popular">По популярности</option>
+                    <option value="popular">По популярности</option>
+                  </select>
+                </div>
+                <div class="mc-form">
+                  <div class="mc-postbox">
+                    <div class="wrap">
+                      <div class="mc-avatar-cnt">
+                        <div class="mc-avatar-wrap">
+                          <img src="image/avatar.svg" class="mc-avatar">
+                        </div>
+                      </div>
+                      <div class="mc-comment-head">
+                        <span class="mc-comment-username">Татьяна Тимофеевна</span>
+                      </div>
+                    </div>
+                    <div class="mc-text-cnt">
+                      <div class="mc-text-wrap">
+                        <div class="mc-textarea-wrap">
+                          <textarea class="mc-textarea" placeholder="Оставьте комментарий"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mc-p">
+                      <button class="btn mc-btn2 mc-btn2-sm mc-btn2-bck mc-anonym-login">Отправить</button>
+                      <button class="btn-cancel">Отмена</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mc-comment">
+                  <div class="mc-comment-wrap mc-comment-approved">
+                    <div class="mc-comment-info">
+                      <div class="mc-comment-head">
+                        <div class="wrap">
+                          <div class="mc-avatar-wrap">
+                            <img src="image/avatar.svg" alt="" class="mc-avatar">
+                          </div>
+                          <span class="mc-comment-username">Вера Иванова</span>
+                        </div>
+                        <a href="https://vseojkt.ru/bolezni/gastrit#cc-97677545" class="mc-comment-time"
+                          timestamp="1601118349352">26.09 16:05
+                        </a>
+                      </div>
+                      <div class="mc-comment-body">
+                        <div class="mc-comment-inner">
+                          <div class="mc-comment-msgcnt">
+                            <div class="mc-comment-msg" itemprop="text">
+                              Мужу поставили гепатит В. Лечились разными препаратами, но наилучший эффект был от
+                              стимфорте. Обострение снял хорошо. Курс короткий, перенес лекарство хорошо. Жаль, что о
+                              препарате немного отзывов, хотя он их заслуживает!
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mc-comment-footer">
+                        <a href="#" class="show-other-answer">Показать 3 ответа</a>
+                        <a class="mc-comment-reply" href="#">Ответить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mc-comment">
+                  <div class="mc-comment-wrap mc-comment-approved">
+                    <div class="mc-comment-info">
+                      <div class="mc-comment-head">
+                        <div class="wrap">
+                          <div class="mc-avatar-wrap">
+                            <img src="image/avatar.svg" alt="" class="mc-avatar">
+                          </div>
+                          <span class="mc-comment-username">Вера Иванова</span>
+                        </div>
+                        <a href="https://vseojkt.ru/bolezni/gastrit#cc-97677545" class="mc-comment-time"
+                          timestamp="1601118349352">26.09 16:05
+                        </a>
+                      </div>
+                      <div class="mc-comment-body">
+                        <div class="mc-comment-inner">
+                          <div class="mc-comment-msgcnt">
+                            <div class="mc-comment-msg" itemprop="text">
+                              У меня вопрос: можно ли вылечить гепатит полностью?
+                            </div>
+                          </div>
+                        </div>
+                        <a class="mc-comment-reply" href="#">Ответить</a>
+                      </div>
+                      <div class="mc-comment-footer">
+                        <a href="#" class="show-other-answer show-other-answer_hide">Скрыть 3 ответа</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mc-comment-child">
+                    <div class="mc-comment">
+                      <div class="mc-comment-wrap mc-comment-approved">
+                        <div class="mc-comment-info">
+                          <div class="mc-comment-head">
+                            <div class="wrap">
+                              <div class="mc-avatar-wrap">
+                                <img src="image/avatar.svg" alt="" class="mc-avatar">
+                              </div>
+                              <span class="mc-comment-username">Василий Петров</span>
+                            </div>
+                            <a href="https://vseojkt.ru/bolezni/gastrit#cc-97677545" class="mc-comment-time"
+                              timestamp="1601118349352">26.09 16:05
+                            </a>
+                          </div>
+                          <div class="mc-comment-body">
+                            <div class="mc-comment-inner">
+                              <div class="mc-comment-msgcnt">
+                                <div class="mc-comment-msg" itemprop="text">
+                                  У меня такой же вопрос
+                                </div>
+                              </div>
+                            </div>
+                            <a class="mc-comment-reply" href="#">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mc-comment">
+                      <div class="mc-comment-wrap mc-comment-approved">
+                        <div class="mc-comment-info">
+                          <div class="mc-comment-head mc-comment-head_expert">
+                            <div class="wrap wrap_expert">
+                              <div class="mc-avatar-wrap">
+                                <img src="image/avatar.svg" alt="" class="mc-avatar">
+                              </div>
+                              <span class="mc-comment-username mc-comment-username_expert">
+                                Сергей Вялов
+                                <span class="expert">Эксперт</span>
+                              </span>
+                            </div>
+                            <div class="mc-comment-parent">
+                              Василий Петров
+                            </div>
+                            <a href="https://vseojkt.ru/bolezni/gastrit#cc-97677545" class="mc-comment-time"
+                              timestamp="1601118349352">26.09 16:05
+                            </a>
+
+                          </div>
+                          <div class="mc-comment-body">
+                            <div class="mc-comment-inner">
+                              <div class="mc-comment-msgcnt">
+                                <div class="mc-comment-msg" itemprop="text">
+                                  Добрый день. Острый гепатит В начинается, как правило, с преджелтушного периода, во
+                                  время которого пациент жалуется на общее недомогание, слабость, снижение
+                                  работоспособности. В это же время развиваются диспептические проявления — тяжесть и
+                                  боль в правом подреберье, тошнота, рвота, потеря аппетита.
+                                </div>
+                              </div>
+                            </div>
+                            <a class="mc-comment-reply" href="#">Ответить</a>
+                          </div>
+                          <div class="mc-comment-footer">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="content__right">
+          <div class="info-block">
+            <div class="block-lg info-block__content">
+              <div class="info-block__top">
+                <a href="#" class="info-block__logo logo">
+                  <img src="image/logo.svg" alt="">
+                </a>
+              </div>
+              <div class="info-block__main">
+                <div class="diet">
+                  <p>Узнайте <br> про стол №5 на нашем сайте</p>
+                  <img src="image/diets-logo.png" alt="стол №5">
+                </div>
+                <div class="download-app">
+                  <span>Или скачайте приложение</span>
+                  <a href="#" aria-label="Скачать из AppStore">
+                    <img src="image/appstore.svg" alt="AppStore">
+                  </a>
+                  <a href="#" aria-label="Скачать из GooglePlay">
+                    <img src="image/googleplay.svg" alt="googleplay">
+                  </a>
+                </div>
+                <div class="social info-block__social">
+                  <a href="#"><img src="image/вк-dark.svg" alt="ВК"></a>
+                  <a href="#"><img src="image/одноклассники-dark.svg" alt="одноклассники"></a>
+                  <a href="#"><img src="image/instagram-dark.svg" alt="instagram"></a>
+                  <a href="#"><img src="image/фейсбук-dark.svg" alt="фейсбук"></a>
+                  <a href="#"><img src="image/твиттер-dark.svg" alt="твиттер"></a>
+                  <a href="#"><img src="image/телеграм-dark.svg" alt="телеграм"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="other-articles">
+            <h3 class="other-articles__title">Читайте также:</h3>
+            <div class="other-articles__items">
+              <a href="#" class="other-articles__item">
+                <img src="image/img-1.jpg" alt="">
+                <h4>Что могут показать анализы?</h4>
+              </a>
+              <a href="#" class="other-articles__item">
+                <img src="image/img-2.jpg" alt="">
+                <h4>Анализы на состояние печени. О чём говорит аномальный уровень щелочной фосфатазы?</h4>
+              </a>
+              <a href="#" class="other-articles__item">
+                <img src="image/img-4.jpg" alt="">
+                <h4>Как определить, что у вас проблемы с печенью?</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
