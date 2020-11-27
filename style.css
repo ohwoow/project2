@@ -159,14 +159,11 @@ li::before {
   position: relative;
   margin: 0 auto;
   max-width: 1550px;
-  padding-left: 200px;
+  padding-left: 170px;
   padding-right: 20px;
   padding-top: 40px;
 }
 
-.content.showPadding {
-  padding-left: 300px;
-}
 
 .header {
   max-width: 1250px;
