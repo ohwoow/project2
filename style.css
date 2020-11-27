@@ -169,6 +169,7 @@ li::before {
 }
 
 .header {
+  max-width: 1250px;
   padding: 10px 50px 10px 56px;
   margin-bottom: 40px;
   background: linear-gradient(90deg, #F84784 0%, #7348FF 100%);
@@ -925,6 +926,13 @@ fieldset img {
 @media (max-width: 1760px) {
   .content {
     padding-left: 300px;
+  }
+
+  .content__left {
+    margin-right: 35px;
+  }
+  .article {
+    padding-left: 0;
   }
 }
 
